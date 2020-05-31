@@ -95,8 +95,8 @@ def click2():
 
         licensetype=combo.get();
         q1="""insert into userinfo(first_name,last_name,gender,address,license_type)values('"+firstname+"','"+lastname+"','"+gender+"','"+address+"','"+licensetype+"');"""
-        conn=my.connect(host="127.0.0.1",user="root",
-                             password="toor",
+        conn=my.connect(host="127.0.0.1",user="your_user_name_sql",
+                             password="your_password_for _Database",
                              db="driving_license")
         #print("conn created")
         cur=conn.cursor()
