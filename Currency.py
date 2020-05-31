@@ -1,7 +1,7 @@
 from tkinter import *
 from tkinter.ttk import *
 
-"""pip install forex-python"""
+
 def convert(uin):
     from forex_python.converter import CurrencyRates
     c=CurrencyRates()#force_decimal=True
